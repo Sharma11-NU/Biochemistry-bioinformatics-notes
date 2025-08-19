@@ -1,1 +1,35 @@
+Bioinformatics is as the name suggests the study of biological information: genes,genomes, proteins, cells etc.
+and applying "informatics" techniques ( could be applied math, computer science, staatistics) to understand the information and organize the information.
 
+What we want? we want the functionality of the protein, Bioinformatics help to give 3D structure.
+So, raw sequence are used to produce 3D structure of the protein and then it can be studied in a better way.
+
+Central Dogma is most important, as it is the coding region. 
+Bioinformatics builds mathematical models of these processes. 
+
+
+DATA TYPES 
+
+1. Primary database                       DNA, RNA
+AATGGCGTATAGCG                            amino acids
+(Raw data)
+
+2. Secondary database                     Secondary protein structure
+motifs: regualr expressions,              alpha-helices, beta-strands
+blocks, fingerprints
+
+3. Tertiary Database                       Tertiary protein structure
+atomic co-ordinates                         domains, folding units
+
+Now, What are databases?
+                  ____________major Databases____________
+specialized databases                               Generalised databases
+            |                                                  |
+1. ESTs (expresses seq tags)                        ___________|__________________
+2. STSs (seq-tagged sites)                         |                              |                    
+3. SNPs ( Single nucleotide)              Protein databses                      DNA ( Nucleotide) databases
+                                        ___________|__________                  1. GenBank at NCBI
+                                 Sequence     Interaction     structure         2. EMBL at EBI (UK)
+                                1. UniProt     1. Biogrid     1. PDB            3. DDBJ ( japan)
+                                2. PIR         2. string      2. CATH
+                                3. SwissProt                  3. SCOPE
