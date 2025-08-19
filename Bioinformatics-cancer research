@@ -1,0 +1,27 @@
+Notes on Cancer Biology 101
+
+What is Cancer? in my own language to explain it in very non-technical terms
+If a healthy cell that grows and divide and then die, becames malignant (immortal).
+now, it keep on dividing and started to pile up in a certain region, that is called malignant tumor.
+and when this tumor becames regressive and transferable to other region of the body it is cancer.
+
+Why a healthy cell becomes a bad guy?
+Many factors can result in this malfunction like Eating habit, environment, any kind of radiations/ uv.
+
+Application of bioinformatics in cancer reseach
+
+Here example for explaining the use of bioinformatics in cancer study , colon cancer is used.
+Colon cancer stages :
+stage 1
+stage 2
+stage 3
+stage 4
+stage 5
+
+Now, how to use bioinformatics?
+Bioinformatics is like a tool to study data.
+data base by maintained by WHO provide a data for every body to use.
+Using String database, we can see how biomarkers are related to a certsin cancer.
+it helps to develop a pathway.
+using R we generate heat map that help in understanding if genes are up regulated or down regulated.
+
