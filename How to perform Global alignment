@@ -1,0 +1,21 @@
+1 make a scoring matrix 
+Scoring matrix is where matrix is made on the bases of match and mis-match
+Match is +1 , Mis-match is -1 , gap is -2
+put value in Column 1 and last row
+from diagonal box , keep the highest value in the box.
+mark your directions 
+
+Rules
+A gap is there in the beginning on the x-axis and y-axix
+BOX besides ( whatever is value add gap value)
+BOX bottom  ( whatever is value add gap value)
+Diagonal Box ( see match/ mis-match)
+
+2. tracebacking
+see the highest value
+from the highest value trace back towards 0
+
+3. Alignment
+look for the traceback arrows and the direction
+vertical arrow , horizontal put gap
+diagonal arrow put characters of the sequence
