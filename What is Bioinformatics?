@@ -33,3 +33,78 @@ specialized databases                               Generalised databases
                                 1. UniProt     1. Biogrid     1. PDB            3. DDBJ ( japan)
                                 2. PIR         2. string      2. CATH
                                 3. SwissProt                  3. SCOPE
+Pairwise Alignment
+1. Needleman-Wunch algorithm ( Global)                1970
+best score from among alignment of full length sequence
+
+2. Smith-Waterman algorithm (Local)                   1981
+best score from among alignment of partial sequence
+
+Why do we need local alignments?
+** to compare a short sequence to a large one
+** to compare4 a single sequence to an entire database
+** to compare a partial sequence to the whole
+** to identify newly determined sequences
+Introduction to FASTA and BLAST
+
+Short lengths of exact matches a better approch for both
+
+FASTA                                                 1988
+Pearson & Lipman
+** was faster
+Derived from DOT plot
+-- -- method looks for exact matches b/w word in query and test sequence
+   -- DNA word are 6 nucleotide long
+   -- protein words are 2 amino acids long
+
+FASTA OUTLINE
+
+*** step 1
+# identify K-words b/w I and j
+# the dot matrix can be plotted for various k
+***  step 2
+Now we score diagonal in the matrix
+***  Step 3
+Rescoring initial region with substitution method
+*** step 4
+join initial region with gaps, penalize for gaps
+
+FASTA score
+Init value?
+number of diagonal matches
+
+Z-score?
+In an easy language how much our actual score is deviated from random score
+Z = (meanX)/ SD
+
+E Value = probability of Z value is called E value
+we want less E value and less z score. E score below 10^-6 are most 
+probably statistically significant.
+
+FASTA Format?
+A simple formal used by almost all the programs
+starts with a (>) header
+sequence with capital letters
+
+
+# Basic Local Alignment Search Technique
+BLAST  and kept on updating                           1990
+now days BLAST(Kent)                                  2002
+** fast
+** easy to use
+** more sensitive
+Blast can not handle gaps well
+ uses Heuristic method
+
+Input of BLAST
+- query sequence Q
+- databse of sequence DB
+- minimal score S
+
+Output of data sequence 
+- Sequence from DB(seq), such that Q and seq have scores > S
+
+The result of the word matching and attempts to extend the alignment are segments
+- called HSPs
+
+
